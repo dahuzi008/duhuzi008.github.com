@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>bootstrap实例</title>
+
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<!-- //for-mobile-apps -->
+	<!-- script -->
+	<script src="js/jquery.min.js"> </script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">	
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+	</script>
+
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+
+	  <div class="container-fluid">
+
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+
+	      <a class="navbar-brand" href="#">4416官网</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+	      <ul class="nav navbar-nav">
+	        <li >
+	        	<a href="index.html">首页</a>
+	        </li>
+
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">竞赛平台<span class="caret"></span>
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a href="medicalrobot.html">医疗服务机器人规定动作赛</a></li>
+	            <li><a href="medicalrobot1.html">医疗服务机器人工程技术挑战赛</a></li>
+
+	            <li role="separator" class="divider"></li>
+
+	            <li><a href="trackedrobot.html">履带式机器人——自主创新</a></li>
+	          </ul>
+	        </li>
+
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ARM实验平台<span class="caret"></span>
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a href="S3C6410.html">多功能通用实验平台(S3C6410)</a></li>
+
+	            <li role="separator" class="divider"></li>
+
+	            <li><a href="S3C6410one.html">智能家居实验平台(S3C6410)</a></li>
+	          </ul>
+	        </li>
+
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">单片机实验平台<span class="caret"></span>
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a href="transducer.html">多传感器实训平台</a></li>
+	            <li><a href="51singlechip.html">基于51单片机机器人实训平台</a></li>
+	            <!-- <li><a href="#">Something else here</a></li> -->
+
+	            <li role="separator" class="divider"></li>
+
+	            <li><a href="STC89C52.html">STC89C52单片机实验平台</a></li>
+	          </ul>
+	        </li>
+
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">配件<span class="caret"></span>
+	          </a>
+	          <ul class="dropdown-menu">
+	            <li><a href="robotarm.html">机器人手臂</a></li>
+	            <li><a href="grayarray.html">灰度阵列模块</a></li>
+
+	            <li role="separator" class="divider"></li>
+
+	            <li><a href="STM32.html">STM32主板</a></li>
+	            <li><a href="C8051F360.html">C8051F360主板</a></li>
+
+	            <li role="separator" class="divider"></li>
+
+	            <li><a href="power.html">4路直流电机控制板</a></li>
+	            <li><a href="steering.html">舵机固定支架</a></li>
+	          </ul>
+	        </li>
+
+	      </ul>
+	      
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#">关于我们</a></li>
+	 
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- 导航条 -->
+
+	<!-- 轮滚图 -->
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+<!-- Indicators -->
+<ol class="carousel-indicators">
+<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+</ol>
+
+<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+	    <div class="item active" style="background:url(image/bg_1.png); background-size:1000px,500px;">
+	      <img src="image/bg_1.png" alt="..." ><!-- //加大照片 -->
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div>
+
+	    <div class="item ">
+	      <img src="image/bg_2.jpg" alt="..." class="center-block img-rounded">
+	      <div class="carousel-caption">
+	      </div>
+	    </div>
+
+	     <div class="item">
+	      <img src="image/bg_4.png" alt="..." class="center-block img-rounded"><!-- //加大照片 -->
+	      <div class="carousel-caption">
+	        
+	      </div>
+	    </div> 
+	  </div>
+
+
+<!-- Controls -->
+<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+</div> 
+
+</body>
+</html>
+
